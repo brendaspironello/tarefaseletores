@@ -1,0 +1,54 @@
+
+
+        * {
+            background-color: rgb(218, 238, 231);
+        }
+        div{
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+        div{
+            div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+        }
+        }
+        .azul{
+            background-color: blue;
+        }
+        .vermelho{
+            background: red;
+        }
+
+        .verde{
+            background: rgb(0, 255,0);
+        }
+        .amarelo{
+            background: yellow;
+        }
+        .texto {
+            font-size: 40px;
+        
+        }
+        #borda{
+            border: 3px solid black;
+        }
+        div:first-of-type:hover {
+            background-color: purple;
+        }
+        div:nth-of-type(6):hover, 
+        div:nth-of-type(25):hover, 
+        div:nth-of-type(30):hover {
+            background-color: purple;
+        }
+        
+        
+        
+        
+    
+
+
+
